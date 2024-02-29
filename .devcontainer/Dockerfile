@@ -28,7 +28,7 @@ RUN apt-get update \
     #
     # Install jekyll
     && gem install \
-        bundler \
+        bundler -v 2.3.8 \
         jekyll \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
